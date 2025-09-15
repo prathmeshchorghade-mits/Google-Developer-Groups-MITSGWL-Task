@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Post a New Group</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>Create a New Study Group</h1>
+        <a href="/" class="back-link">← Back to Home</a>
+    </header>
+    <main>
+        <div class="form-container">
+            <form id="group-form">
+                <div class="form-group">
+                    <label for="course_name">Course Name:</label>
+                    <input type="text" id="course_name" name="course_name" placeholder="e.g., CS 101" required>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" placeholder="e.g., Library Room 3A" required>
+                </div>
+                <div class="form-group">
+                    <label for="start_time">Time:</label>
+                    <input type="text" id="start_time" name="start_time" placeholder="e.g., Today at 5 PM" required>
+                </div>
+                <div class="form-group">
+                    <label for="max_students">Max Students Allowed:</label>
+                    <input type="number" id="max_students" name="max_students" placeholder="e.g., 5">
+                </div>
+                <div class="form-group">
+                    <label for="student_year">Your Year:</label>
+                    <input type="text" id="student_year" name="student_year" placeholder="e.g., Second Year">
+                </div>
+                <div class="form-group">
+                    <label for="student_branch">Your Branch:</label>
+                    <input type="text" id="student_branch" name="student_branch" placeholder="e.g., Computer Science">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description (Optional):</label>
+                    <textarea id="description" name="description" rows="3" placeholder="e.g., Reviewing for the midterm"></textarea>
+                </div>
+                <button type="submit">Post Group</button>
+            </form>
+        </div>
+    </main>
+    <script src="{{ url_for('static', filename='post_group.js') }}"></script>
+</body>
+
+</html>

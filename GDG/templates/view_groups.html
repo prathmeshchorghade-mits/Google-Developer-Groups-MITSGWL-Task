@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Available Groups</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>Active Study Groups</h1>
+        <a href="/" class="back-link">← Back to Home</a>
+    </header>
+    <main>
+        <div class="list-container">
+            <div id="group-list">
+            </div>
+        </div>
+    </main>
+    <script src="{{ url_for('static', filename='view_groups.js') }}"></script>
+</body>
+
+</html>
