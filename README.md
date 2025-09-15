@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [[your-github-repository-url](https://github.com/prathmeshchorghade-mits/Google-Developer-Groups-MITSGWL-Task/blob/main/README.md)]
+    git clone [(https://github.com/prathmeshchorghade-mits/Google-Developer-Groups-MITSGWL-Task/blob/main/README.md)]
     cd [your-project-folder]
     ```
 
