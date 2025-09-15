@@ -33,13 +33,12 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [your-github-repository-url]
+    git clone [[your-github-repository-url](https://github.com/prathmeshchorghade-mits/Google-Developer-Groups-MITSGWL-Task/blob/main/README.md)]
     cd [your-project-folder]
     ```
 
 
 2.  **Install the dependencies:**
-    *(Note: You should create a `requirements.txt` file by running `pip freeze > requirements.txt`)*
     ```bash
     pip install -r requirements.txt
     ```
